@@ -57,9 +57,11 @@ uv add numpy pandas scikit-learn matplotlib seaborn Joblib Tqdm
 
 
 ## Usage
+```bash
 raw_data.csv
     │
     ├── chemical_encoding/ → processed_data.csv → Analysis (0-9 notebooks)
     ├── onehot_encoding/   → processed_data.csv → Analysis (0-9 notebooks)
     └── ordinal_encoding/  → processed_data.csv → Analysis (0-9 notebooks)
+```
 
