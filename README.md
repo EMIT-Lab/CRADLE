@@ -3,13 +3,14 @@
 This project focuses on predicting the g-factor of chiral nanoparticles using various machine learning models and feature encoding strategies. The repository contains the complete workflow from data preprocessing and feature encoding to model training, validation, and visualization.
 
 ## KEncoding Strategies
-Three different encoding approaches are implemented and compared:
-1.Chemical Encoding (chemical_encoding/): Domain-specific feature representation for chiral nanoparticles using chemical descriptors and properties
-2.One-Hot Encoding (onehot_encoding/): Categorical variable encoding for machine learning compatibility, creating binary columns for each category
-3.Ordinal Encoding (ordinal_encoding/): Ordered categorical encoding preserving inherent relationships between values
-Each encoding folder contains:
-A processed_data.csv file with the encoded dataset
-A complete analysis workflow in Jupyter notebooks (0-9)
+Three different encoding approaches are implemented and compared:  
+1.Chemical Encoding (chemical_encoding/): Domain-specific feature representation for chiral nanoparticles using chemical descriptors and properties  
+2.One-Hot Encoding (onehot_encoding/): Categorical variable encoding for machine learning compatibility, creating binary columns for each category  
+3.Ordinal Encoding (ordinal_encoding/): Ordered categorical encoding preserving inherent relationships between values  
+Each encoding folder contains:  
+A processed_data.csv file with the encoded dataset  
+A complete analysis workflow in Jupyter notebooks (0-9)  
+
 ## Installation
 1. Create virtual environment:
 ```bash
@@ -64,4 +65,5 @@ raw_data.csv
     ├── onehot_encoding/   → processed_data.csv → Analysis (0-9 notebooks)
     └── ordinal_encoding/  → processed_data.csv → Analysis (0-9 notebooks)
 ```
+
 
