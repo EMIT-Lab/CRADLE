@@ -23,10 +23,6 @@ source .venv/bin/activate  # Linux/Mac
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn Joblib Tqdm
 ```
-or:
-```bash
-uv add numpy pandas scikit-learn matplotlib seaborn Joblib Tqdm
-```
 
 ## Project Structure
     ├── raw_data.csv                   # Original dataset (raw data)
@@ -65,5 +61,6 @@ raw_data.csv
     ├── onehot_encoding/   → processed_data.csv → Analysis (0-9 notebooks)
     └── ordinal_encoding/  → processed_data.csv → Analysis (0-9 notebooks)
 ```
+
 
 
